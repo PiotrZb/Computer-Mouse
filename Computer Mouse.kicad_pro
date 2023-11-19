@@ -471,6 +471,30 @@
     [
       "7d5e88af-e2e7-4ac2-81bb-4bd53f941285",
       ""
+    ],
+    [
+      "0517f41d-36dd-46bb-9053-cd480e07786d",
+      "USB"
+    ],
+    [
+      "6e231fb2-3f93-4ea0-b19f-907da18ff2d0",
+      "Converter 3.3V + BMS"
+    ],
+    [
+      "ac40509f-e978-4a7b-85fd-bace9a2f728e",
+      "Optical sensor"
+    ],
+    [
+      "17b9ee72-78de-4546-8bf4-8a55e1cbcc94",
+      "Bluetooth module"
+    ],
+    [
+      "4b4be342-02f4-41d2-b299-aca22b8fd780",
+      "MCU"
+    ],
+    [
+      "5e2c4d76-3474-4bca-a117-982e6cfcead1",
+      "Buttons + Scrolls"
     ]
   ],
   "text_variables": {}
