@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -105,20 +111,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.0,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
+        "min_through_hole_diameter": 0.5,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.125,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -165,8 +171,20 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.2
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.75,
+          "drill": 0.5
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -457,6 +475,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -473,6 +499,10 @@
       ""
     ],
     [
+      "4b4be342-02f4-41d2-b299-aca22b8fd780",
+      "MCU"
+    ],
+    [
       "0517f41d-36dd-46bb-9053-cd480e07786d",
       "USB"
     ],
@@ -487,10 +517,6 @@
     [
       "17b9ee72-78de-4546-8bf4-8a55e1cbcc94",
       "Bluetooth module"
-    ],
-    [
-      "4b4be342-02f4-41d2-b299-aca22b8fd780",
-      "MCU"
     ],
     [
       "5e2c4d76-3474-4bca-a117-982e6cfcead1",

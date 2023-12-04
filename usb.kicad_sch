@@ -1178,13 +1178,13 @@
   (symbol (lib_id "Device:C") (at 223.52 91.44 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0911a788-67fc-440f-80fa-3e6ff7d02861)
-    (property "Reference" "C3" (at 215.9 91.44 90)
+    (property "Reference" "C11" (at 215.9 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7u" (at 218.44 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 224.4852 87.63 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 224.4852 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 223.52 91.44 0)
@@ -1195,7 +1195,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "C3") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1223,7 +1223,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1251,7 +1251,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1260,7 +1260,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 147.32 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34b487ef-6976-4cd3-baf2-378a02cf1c86)
-    (property "Reference" "U1" (at 163.83 97.2119 90)
+    (property "Reference" "U5" (at 163.83 97.2119 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USBLC6-2SC6" (at 163.83 99.7519 90)
@@ -1281,7 +1281,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "U1") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1290,7 +1290,7 @@
   (symbol (lib_id "power:+5V") (at 246.38 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 358a533f-92c4-4fcd-a9df-b720c62bc2b1)
-    (property "Reference" "#PWR01" (at 246.38 80.01 0)
+    (property "Reference" "#PWR020" (at 246.38 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 246.38 71.12 0)
@@ -1306,7 +1306,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1315,13 +1315,13 @@
   (symbol (lib_id "Device:C") (at 210.82 91.44 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ec5e4ce-0543-419e-860a-38dad016c244)
-    (property "Reference" "C2" (at 203.2 91.44 90)
+    (property "Reference" "C10" (at 203.2 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 205.74 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 211.7852 87.63 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 211.7852 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.82 91.44 0)
@@ -1332,7 +1332,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "C2") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1347,7 +1347,7 @@
     (property "Value" "5.1kOhm" (at 121.92 102.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 113.792 99.06 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 113.792 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 99.06 0)
@@ -1361,7 +1361,7 @@
           (reference "R?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "R2") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
           (reference "J?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1414,13 +1414,13 @@
   (symbol (lib_id "Device:C") (at 191.77 91.44 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bd17848-59d9-4fb0-808b-58986700b491)
-    (property "Reference" "C1" (at 184.15 91.44 90)
+    (property "Reference" "C9" (at 184.15 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 186.69 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 192.7352 87.63 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 192.7352 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 191.77 91.44 0)
@@ -1431,7 +1431,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "C1") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1446,7 +1446,7 @@
     (property "Value" "5.1kOhm" (at 106.68 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 112.268 99.06 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 112.268 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 99.06 0)
@@ -1460,7 +1460,7 @@
           (reference "R?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "R1") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1469,7 +1469,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 88.9 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d81396d-1574-4e25-9583-b4b0b0756b9b)
-    (property "Reference" "#FLG02" (at 88.9 121.285 0)
+    (property "Reference" "#FLG04" (at 88.9 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 88.9 118.11 0)
@@ -1485,7 +1485,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -1494,13 +1494,13 @@
   (symbol (lib_id "Device:R") (at 62.23 123.19 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2e8a81e-e57b-4b8e-a14f-628a10f35308)
-    (property "Reference" "R3" (at 62.23 116.84 90)
+    (property "Reference" "R10" (at 62.23 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 62.23 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 121.412 90)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 62.23 121.412 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 62.23 123.19 0)
@@ -1511,7 +1511,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "R3") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1520,13 +1520,13 @@
   (symbol (lib_id "Device:C") (at 62.23 128.27 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3586483-8460-40bf-a008-49a05ecff56b)
-    (property "Reference" "C4" (at 62.23 135.89 90)
+    (property "Reference" "C12" (at 62.23 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7n" (at 62.23 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 58.42 127.3048 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 58.42 127.3048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 62.23 128.27 0)
@@ -1537,7 +1537,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "C4") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1546,7 +1546,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 85.09 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4f0efda-4d63-4cad-a3b9-970c25bf50d5)
-    (property "Reference" "#FLG01" (at 85.09 74.295 0)
+    (property "Reference" "#FLG02" (at 85.09 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 85.09 71.12 0)
@@ -1562,7 +1562,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1590,7 +1590,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1602,10 +1602,10 @@
     (property "Reference" "F1" (at 229.87 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "700m" (at 228.6 76.2 90)
+    (property "Value" "750m" (at 228.6 76.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 231.14 80.518 90)
+    (property "Footprint" "Fuse:Fuse_0402_1005Metric" (at 231.14 80.518 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 231.14 78.74 0)
@@ -1656,7 +1656,7 @@
     (property "Value" "FerriteBead" (at 199.4408 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 199.39 76.962 90)
+    (property "Footprint" "Capacitor_SMD:C_2220_5650Metric" (at 199.39 76.962 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 78.74 0)
@@ -1695,7 +1695,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/0517f41d-36dd-46bb-9053-cd480e07786d"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )

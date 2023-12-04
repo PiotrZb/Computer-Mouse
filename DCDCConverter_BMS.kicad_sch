@@ -802,7 +802,7 @@
     (property "Value" "453kOhm" (at 199.39 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 195.072 106.68 90)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 195.072 106.68 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 106.68 0)
@@ -816,7 +816,7 @@
           (reference "R?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "R5") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -831,7 +831,7 @@
     (property "Value" "4.7uF" (at 220.98 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 218.1352 96.52 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 218.1352 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 217.17 92.71 0)
@@ -845,7 +845,7 @@
           (reference "C?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "C7") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -873,7 +873,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -882,7 +882,7 @@
   (symbol (lib_id "power:+BATT") (at 124.46 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2200cf34-3a7e-4007-b284-3eca4e603272)
-    (property "Reference" "#PWR07" (at 124.46 74.93 0)
+    (property "Reference" "#PWR026" (at 124.46 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 124.46 66.04 0)
@@ -898,7 +898,7 @@
     (instances
       (project "Computer Mouse"
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -913,7 +913,7 @@
     (property "Value" "4.7uF" (at 64.77 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 61.9252 90.17 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 61.9252 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 60.96 86.36 0)
@@ -927,7 +927,7 @@
           (reference "C?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "C5") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -959,7 +959,7 @@
           (reference "U?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "U2") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -987,7 +987,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1015,7 +1015,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1043,7 +1043,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1071,7 +1071,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1086,7 +1086,7 @@
     (property "Value" "100kOhm" (at 199.39 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 195.072 119.38 90)
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 195.072 119.38 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 119.38 0)
@@ -1100,7 +1100,7 @@
           (reference "R?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "R6") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1128,7 +1128,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1156,7 +1156,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1171,7 +1171,7 @@
     (property "Value" "2kOhm" (at 76.2 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 71.882 91.44 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 71.882 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 91.44 0)
@@ -1185,7 +1185,7 @@
           (reference "R?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "R4") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1213,7 +1213,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1242,7 +1242,7 @@
           (reference "J?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1271,7 +1271,7 @@
           (reference "L?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "L1") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -1286,7 +1286,7 @@
     (property "Value" "2.2uF" (at 152.4 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 155.2448 90.17 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 155.2448 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 86.36 0)
@@ -1300,7 +1300,7 @@
           (reference "C?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "C6") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1328,7 +1328,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1361,7 +1361,7 @@
           (reference "U?") (unit 1)
         )
         (path "/7d5e88af-e2e7-4ac2-81bb-4bd53f941285/6e231fb2-3f93-4ea0-b19f-907da18ff2d0"
-          (reference "U3") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
