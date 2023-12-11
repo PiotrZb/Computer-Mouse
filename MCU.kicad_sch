@@ -2782,7 +2782,7 @@
     (property "Value" "LED_ABGR" (at 241.3 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB" (at 241.3 110.49 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" (at 241.3 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 241.3 110.49 0)
