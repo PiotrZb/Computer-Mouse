@@ -6,6 +6,9 @@
 
   (title_block
     (title "Bluetooth module")
+    (date "2024-01-02")
+    (rev "v1.1")
+    (company "Piotr Zborowski, Łukasz Kus")
   )
 
   (lib_symbols
@@ -530,7 +533,7 @@
     (property "Reference" "C20" (at 130.81 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 130.81 82.55 0)
+    (property "Value" "10uF" (at 130.81 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 127.9652 85.09 0)

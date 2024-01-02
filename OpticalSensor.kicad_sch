@@ -6,6 +6,9 @@
 
   (title_block
     (title "Optical sensor")
+    (date "2024-01-02")
+    (rev "v1.1")
+    (company "Piotr Zborowski, Łukasz Kus")
   )
 
   (lib_symbols
